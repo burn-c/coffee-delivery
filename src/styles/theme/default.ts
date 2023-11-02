@@ -37,4 +37,9 @@ export const defaultTheme = {
     'button-g': '0.875', // 14px
     'button-m': '0.75', // 12px
   },
+
+  lineHeight: {
+    md: '130%',
+    lg: '160%',
+  },
 }
