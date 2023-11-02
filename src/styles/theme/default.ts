@@ -33,9 +33,9 @@ export const defaultTheme = {
     'text-s': '0.875rem', // 14px
     'text-xs': '0.75rem', // 12px
 
-    tag: '0.625', // 10px
-    'button-g': '0.875', // 14px
-    'button-m': '0.75', // 12px
+    tag: '0.625rem', // 10px
+    'button-g': '0.875rem', // 14px
+    'button-m': '0.75rem', // 12px
   },
 
   lineHeight: {
