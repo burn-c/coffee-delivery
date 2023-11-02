@@ -43,6 +43,8 @@ export const ButtonSecundary = styled(ButtonPrimary)`
   }
 `
 export const ButtonIcon = styled(ButtonPrimary)`
+  height: 38px;
+  width: 38px;
   padding: 8px;
 
   background: ${(props) => props.theme.colors['purple-dark']};
@@ -50,5 +52,11 @@ export const ButtonIcon = styled(ButtonPrimary)`
 
   &:hover {
     background: ${(props) => props.theme.colors.purple};
+  }
+
+  svg {
+    color: ${(props) => props.theme.colors.white};
+    height: 22px;
+    width: 22px;
   }
 `
